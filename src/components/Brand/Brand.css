@@ -1,0 +1,130 @@
+.brand-c {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 1rem 12rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+.brand-c>span {
+    font-weight: 700;
+    font-size: 32px;
+    color: #061237;
+    text-align: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: 6rem 0;
+}
+
+.number>div {
+    width: 223px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: center;
+}
+
+.number>div>:nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+    color: #061237;
+}
+
+.number>div>:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    color: #67718E
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    float: left;
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.video>:nth-child(1) {
+    font-weight: 700;
+    font-size: 14px;
+    color: #67718E;
+}
+
+.video>:nth-child(2) {
+    font-weight: 700;
+    font-size: 48px;
+    color: #061237;
+}
+
+.video>:nth-child(4) {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    bottom: 41%;
+    right: 45%;
+    cursor: pointer;
+}
+
+.video>:nth-child(5) {
+    width: 525px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #061237;
+}
+
+@media screen and (max-width: 676px) {
+    .brand-c {
+        gap: 2rem;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 13rem;
+    }
+
+    .number {
+        flex-direction: column;
+    }
+
+    .video {
+        margin-top: 8rem;
+        float: left;
+        text-align: left;
+    }
+
+    .video>:nth-child(2) {
+        width: 286px;
+    }
+
+    .video>:nth-child(5) {
+      width: 336.23px;;
+    }
+
+    .v-img {
+        width: 351px;
+        height: 300px;
+    }
+
+    .v-img>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video>:nth-child(4) {
+        width: 54px;
+        height: 54px;
+    }
+}

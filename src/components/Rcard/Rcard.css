@@ -1,0 +1,39 @@
+.r-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #061237;
+}
+
+.r-card>img {
+    width: 304px;
+    height: 320px;
+}
+
+.r-card>:nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.r-card>:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #37456C;
+}
+
+.r-card>button {
+    border: 0;
+    outline: 0;
+    width: fit-content;
+    background-color: #F7F9FC;
+
+    color: #061237;
+}
+
+@media screen and (max-width: 767px) {
+    .r-card>button {
+        margin-bottom: 3rem;
+    }
+}

@@ -1,0 +1,44 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 12rem;
+    background-color: #061237;
+    margin: 8rem 0;
+}
+
+.head {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head>span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ffff;
+}
+
+.cards {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .work {
+        padding: 4rem 1rem;
+    }
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+}

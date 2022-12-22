@@ -1,0 +1,40 @@
+.feature {
+    display: flex;
+    gap: 8rem;
+    padding: 2rem 1rem 2rem 14rem;
+    align-items: center;
+    margin-top: 8rem;
+
+}
+
+.left-f {
+    flex: 1 1;
+}
+
+.left-f>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.left-f>div>div>div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.right-f {
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .feature {
+        flex-direction: column;
+        padding: 1rem 2rem;
+        gap: 3rem;
+    }
+    .right-f>img{
+        width: 351px;
+        height: 429px;
+    }
+}

@@ -1,0 +1,31 @@
+.resource{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 12rem;
+    margin: 2rem 0;
+}
+.r-head{
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center; 
+}
+.r-head>span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #061237;
+}
+
+@media screen and (max-width: 767px) {
+    .r-head {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 0;
+    }
+    #r-card{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,53 @@
+.know {
+    display: flex;
+    gap: 8rem;
+    padding: 2rem 10rem;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.left-k {
+    flex: 1 1;
+    position: relative;
+}
+
+.left-k>div {
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    width: 403px;
+    height: 540px;
+    background: #F5FCFF;
+    z-index: -1;
+}
+
+.right-k>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.right-k {
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .know {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 3rem;
+    }
+
+    .left-k>img {
+        width: 303px;
+        height: 280px;
+    }
+
+    .left-k>:nth-child(1) {
+        width: 245px;
+        height: 348px;
+        top: -30px;
+        left: -25px;
+    }
+}
